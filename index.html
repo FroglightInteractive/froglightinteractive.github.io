@@ -4,32 +4,65 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Froglight Interactive</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:700,400&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Froglight Interactive</h1>
-    <p>Welcome to our official GitHub Pages site!</p>
-  </header>
-  <main>
-    <section>
-      <h2>About Us</h2>
-      <p>
+  <nav>
+    <div class="logo">Froglight Interactive</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+  <header class="hero">
+    <div class="hero-content">
+      <h1 class="fade-in">Welcome to Froglight Interactive</h1>
+      <p class="fade-in" style="animation-delay: .2s;">
         We create exciting projects and share our knowledge with the world.
       </p>
+      <a href="#projects" class="cta-button fade-in" style="animation-delay: .4s;">See Our Projects</a>
+    </div>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Froglight Interactive is dedicated to crafting innovative digital experiences. Whether it's games, tools, or open-source experiments, we love building things that inspire and empower others.
+      </p>
     </section>
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li><a href="https://github.com/FroglightInteractive/Fundamental">Fundamental</a></li>
-        <li><a href="https://github.com/FroglightInteractive/FroglightNotes">FroglightNotes</a></li>
-        <li><a href="https://github.com/FroglightInteractive/CloudRunner">CloudRunner</a></li>
-        <li><a href="https://github.com/FroglightInteractive/Hard-Game">Hard-Game</a></li>
-      </ul>
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="card-grid">
+        <div class="card">
+          <img src="https://github.com/FroglightInteractive/Fundamental/raw/main/logo.png" alt="Fundamental Logo" onerror="this.style.display='none'">
+          <h3>Fundamental</h3>
+          <p>A powerful and intuitive framework for rapid prototyping.</p>
+          <a href="https://github.com/FroglightInteractive/Fundamental" target="_blank">View on GitHub</a>
+        </div>
+        <div class="card">
+          <img src="https://github.com/FroglightInteractive/FroglightNotes/raw/main/logo.png" alt="FroglightNotes Logo" onerror="this.style.display='none'">
+          <h3>FroglightNotes</h3>
+          <p>Organize your thoughts and ideas effortlessly with our note-taking app.</p>
+          <a href="https://github.com/FroglightInteractive/FroglightNotes" target="_blank">View on GitHub</a>
+        </div>
+        <div class="card">
+          <img src="https://github.com/FroglightInteractive/CloudRunner/raw/main/logo.png" alt="CloudRunner Logo" onerror="this.style.display='none'">
+          <h3>CloudRunner</h3>
+          <p>Run, jump, and explore in this fast-paced platformer game.</p>
+          <a href="https://github.com/FroglightInteractive/CloudRunner" target="_blank">View on GitHub</a>
+        </div>
+        <div class="card">
+          <img src="https://github.com/FroglightInteractive/Hard-Game/raw/main/logo.png" alt="Hard-Game Logo" onerror="this.style.display='none'">
+          <h3>Hard-Game</h3>
+          <p>Challenge yourself with the hardest game you'll ever play!</p>
+          <a href="https://github.com/FroglightInteractive/Hard-Game" target="_blank">View on GitHub</a>
+        </div>
+      </div>
     </section>
   </main>
   <footer>
-    <p>&copy; 2025 Froglight Interactive</p>
+    <p>&copy; 2025 Froglight Interactive &mdash; <a href="https://github.com/FroglightInteractive" target="_blank">GitHub</a></p>
   </footer>
 </body>
 </html>
