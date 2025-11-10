@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Froglight Interactive - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; background: #191a24; color: #eee; margin: 0; }
+    header { background: #25274D; padding: 2rem 1rem; text-align: center; }
+    h1 { margin: 0 0 0.5rem 0; }
+    main { max-width: 720px; margin: auto; padding: 1rem; }
+    .about { margin-bottom: 2.5rem; }
+    .projects { display: grid; grid-template-columns: 1fr; gap: 2rem; }
+    @media (min-width:600px){ .projects { grid-template-columns: 1fr 1fr; } }
+    .project { background: #22223b; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 16px #0a0b15c0; }
+    .project-title { font-size: 1.2em; margin: 0 0 0.5em 0; }
+    .project-links { margin-top: 1em; }
+    a { color: #ffb700; text-decoration: none; }
+    .project a { color: #85d4ff; }
+    .external { margin-top: 2.5rem; text-align: center; }
+    .icon { vertical-align: middle; margin-right: .25em; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Froglight Interactive</h1>
+    <p>Game developer &amp; project explorer</p>
+  </header>
+  <main>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>I make games. Check out my projects and creations below!</p>
+    </section>
+    <section>
+      <h2>Portfolio Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <div class="project-title">fun_file_explorer</div>
+          <p>A playful file explorer project. Explore files in style and learn basic file operations in a fun way.</p>
+          <div class="project-links">
+            <a href="https://github.com/FroglightInteractive/fun_file_explorer" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-title">FroglightNotes</div>
+          <p>Take notes, organize ideas, and keep your thoughts together. A simple and effective notes application.</p>
+          <div class="project-links">
+            <a href="https://github.com/FroglightInteractive/FroglightNotes" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-title">Fundamental</div>
+          <p>Experiment with core principles and mechanics. Explore the fundamentals of game development and programming here.</p>
+          <div class="project-links">
+            <a href="https://github.com/FroglightInteractive/Fundamental" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="external">
+      <h2>Find me elsewhere</h2>
+      <p>
+        <a href="https://froglightinteractive.itch.io/" target="_blank">
+          <span class="icon">🎮</span>itch.io
+        </a> &ndash;
+        <a href="https://github.com/FroglightInteractive" target="_blank">
+          <span class="icon">🐙</span>GitHub
+        </a>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
